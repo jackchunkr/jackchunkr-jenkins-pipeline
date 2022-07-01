@@ -4,7 +4,6 @@ jenkins plugin:
 - Kubernetes :: Pipeline :: DevOps Steps
 - Kubernetes CLI Plugin
 - Kubernetes Client API Plugin
-- Kubernetes Continuous Deploy Plugin
 - Kubernetes Credentials Plugin
 - Kubernetes plugin
 
