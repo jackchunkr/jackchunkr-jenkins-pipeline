@@ -10,7 +10,7 @@ jenkins plugin:
 
 
 jenkins serive: 
-================================
+'''
 spec:
   clusterIP: 172.20.30.225
   clusterIPs:
@@ -32,11 +32,13 @@ spec:
     port: 50000
     protocol: TCP
     targetPort: 50000
-=================================    
+'''
+
 jenkins Configure Clouds :
-  - Credentials : Secret text -> Secret(kubeconfig 등록) -> ID() -> Description()
-  - Jenkins URL : http://[URL]
-  - Jenkins tunnel : jenkins:50000
+- Credentials : Secret text -> Secret(kubeconfig 등록) -> ID() -> Description()
+- Jenkins URL : http://[URL]
+- Jenkins tunnel : jenkins:50000
+
 jenkins Configure Global Security:
-  - Agents : Fixed: 50000
+- Agents : Fixed: 50000
  
