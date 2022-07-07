@@ -48,6 +48,6 @@ jenkins Configure Global Security:
 필히 참조 : https://github.com/jenkinsci/kubernetes-plugin
 로드밸런시 포트 열기 : https://stackoverflow.com/questions/38486848/kubernetes-jenkins-plugin-slaves-always-offline
 
-kubectl create clusterrolebinding permissive-binding --clusterrole=cluster-admin --user=admin --user=kubelet --group=system:serviceaccounts:jenkins
+$ kubectl create clusterrolebinding permissive-binding --clusterrole=cluster-admin --user=admin --user=kubelet --group=system:serviceaccounts:jenkins
 `````
 
